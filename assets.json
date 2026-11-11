@@ -1,1 +1,98 @@
-{}
+{
+ "cast.bram.staand": {
+  "src": "assets/cast-bram-staand.png",
+  "w": 248,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.bram.wijzen": {
+  "src": "assets/cast-bram-wijzen.png",
+  "w": 451,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.bram.beslist": {
+  "src": "assets/cast-bram-beslist.png",
+  "w": 251,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.mina.staand": {
+  "src": "assets/cast-mina-staand.png",
+  "w": 340,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.mina.wijzen": {
+  "src": "assets/cast-mina-wijzen.png",
+  "w": 365,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.mina.beslist": {
+  "src": "assets/cast-mina-beslist.png",
+  "w": 293,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.rue.staand": {
+  "src": "assets/cast-rue-staand.png",
+  "w": 365,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.rue.wijzen": {
+  "src": "assets/cast-rue-wijzen.png",
+  "w": 399,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "cast.rue.beslist": {
+  "src": "assets/cast-rue-beslist.png",
+  "w": 374,
+  "h": 512,
+  "anchor": [
+   0.5,
+   1
+  ]
+ },
+ "vloer.hout": {
+  "src": "assets/vloer-hout-tile.png",
+  "w": 512,
+  "h": 512
+ },
+ "vloer.tegel": {
+  "src": "assets/vloer-tegel-tile.png",
+  "w": 512,
+  "h": 512
+ },
+ "kamer.werkkamer": {
+  "src": "assets/kamer-werkkamer.png",
+  "w": 768,
+  "h": 432
+ }
+}

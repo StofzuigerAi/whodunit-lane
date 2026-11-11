@@ -291,6 +291,27 @@
     },
     "text": "Rue was beside a carpet.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "row-is",
+    "params": {
+     "s": 0,
+     "k": 0
+    },
+    "text": "Sir Bram was in row 1.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 12,
+    "type": "corner",
+    "params": {
+     "s": 0
+    },
+    "text": "Sir Bram was in a corner of the room.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "hard",

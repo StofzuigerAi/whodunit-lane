@@ -288,6 +288,28 @@
     },
     "text": "Sir Bram was southwest of Rue.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 1
+    },
+    "text": "Sir Bram was in column 2.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 12,
+    "type": "row-is",
+    "params": {
+     "s": 0,
+     "k": 4
+    },
+    "text": "Sir Bram was in row 5.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

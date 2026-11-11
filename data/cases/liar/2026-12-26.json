@@ -269,6 +269,17 @@
     },
     "text": "Juno was beside a table, directly west of it.",
     "statement": true
+   },
+   {
+    "no": 9,
+    "type": "in-room",
+    "params": {
+     "s": 5,
+     "room": "K"
+    },
+    "text": "Juno was in the Kitchen.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

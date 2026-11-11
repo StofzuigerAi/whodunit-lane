@@ -277,6 +277,17 @@
     },
     "text": "Rue was beside exactly one chair.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "in-room",
+    "params": {
+     "s": 2,
+     "room": "S"
+    },
+    "text": "Rue was in the Study.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "hard",

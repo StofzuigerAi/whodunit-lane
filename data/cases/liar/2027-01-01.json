@@ -277,6 +277,17 @@
     },
     "text": "Pip was in the Mudroom.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "row-is",
+    "params": {
+     "s": 1,
+     "k": 0
+    },
+    "text": "Mina was in row 1.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "hard",

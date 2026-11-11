@@ -1,0 +1,530 @@
+{
+ "puzzle": {
+  "planId": "ph-bakery-kitchen",
+  "planLabel": "The Bakery Kitchen",
+  "theme": "kitchen",
+  "rows": 7,
+  "cols": 8,
+  "map": [
+   "KKKKKPP.",
+   "KKKKKPPP",
+   "KKKKKPPP",
+   "DDDHHHHH",
+   "DDDDDHHH",
+   "DDDDDHHH",
+   ".DDDDHH."
+  ],
+  "rooms": {
+   "K": "Kitchen",
+   "P": "Pantry",
+   "D": "Dining Nook",
+   "H": "Back Hall"
+  },
+  "furniture": [
+   {
+    "r": 0,
+    "c": 0,
+    "kind": "counter",
+    "blocking": true
+   },
+   {
+    "r": 0,
+    "c": 2,
+    "kind": "case",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 1,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 1,
+    "c": 3,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 2,
+    "c": 3,
+    "kind": "table",
+    "blocking": true
+   },
+   {
+    "r": 0,
+    "c": 4,
+    "kind": "plant",
+    "blocking": true
+   },
+   {
+    "r": 2,
+    "c": 0,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 0,
+    "c": 5,
+    "kind": "shelf",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 7,
+    "kind": "shelf",
+    "blocking": true
+   },
+   {
+    "r": 2,
+    "c": 6,
+    "kind": "crate",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 5,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 3,
+    "c": 1,
+    "kind": "table",
+    "blocking": true
+   },
+   {
+    "r": 4,
+    "c": 2,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 3,
+    "kind": "sofa",
+    "blocking": false
+   },
+   {
+    "r": 6,
+    "c": 2,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 4,
+    "c": 4,
+    "kind": "bench",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 0,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 3,
+    "c": 5,
+    "kind": "bench",
+    "blocking": false
+   },
+   {
+    "r": 3,
+    "c": 7,
+    "kind": "plant",
+    "blocking": true
+   },
+   {
+    "r": 4,
+    "c": 6,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 7,
+    "kind": "bed",
+    "blocking": false
+   },
+   {
+    "r": 6,
+    "c": 5,
+    "kind": "statue",
+    "blocking": true
+   }
+  ],
+  "loot": {
+   "r": 0,
+   "c": 2,
+   "room": "K",
+   "item": "the victim"
+  },
+  "suspects": [
+   {
+    "id": 0,
+    "name": "Sir Bram"
+   },
+   {
+    "id": 1,
+    "name": "Mina"
+   },
+   {
+    "id": 2,
+    "name": "Rue"
+   },
+   {
+    "id": 3,
+    "name": "Pip"
+   },
+   {
+    "id": 4,
+    "name": "Otto"
+   },
+   {
+    "id": 5,
+    "name": "Juno"
+   }
+  ],
+  "clues": [
+   {
+    "no": 1,
+    "type": "quad-of",
+    "params": {
+     "s": 1,
+     "t": 5,
+     "quad": "nw"
+    },
+    "text": "Mina was northwest of Juno.",
+    "statement": true
+   },
+   {
+    "no": 2,
+    "type": "beside-object",
+    "params": {
+     "s": 4,
+     "kind": "counter"
+    },
+    "text": "Otto was beside a counter.",
+    "statement": true
+   },
+   {
+    "no": 3,
+    "type": "beside-object",
+    "params": {
+     "s": 3,
+     "kind": "chair"
+    },
+    "text": "Pip was beside a chair.",
+    "statement": true
+   },
+   {
+    "no": 4,
+    "type": "in-room",
+    "params": {
+     "s": 4,
+     "room": "H"
+    },
+    "text": "Otto was in the Back Hall.",
+    "statement": true
+   },
+   {
+    "no": 5,
+    "type": "beside-object-dir",
+    "params": {
+     "s": 2,
+     "kind": "shelf",
+     "dir": "w"
+    },
+    "text": "Rue was beside a shelf, directly east of it.",
+    "statement": true
+   },
+   {
+    "no": 6,
+    "type": "on-object",
+    "params": {
+     "s": 0,
+     "kind": "bench"
+    },
+    "text": "Sir Bram was sitting on a bench.",
+    "statement": true
+   },
+   {
+    "no": 7,
+    "type": "on-object",
+    "params": {
+     "s": 1,
+     "kind": "sofa"
+    },
+    "text": "Mina was sitting on a sofa.",
+    "statement": true
+   }
+  ],
+  "difficulty": "hard",
+  "rule": "one-liar",
+  "instruction": "Everyone, the victim too, stood on one square: one person to a row, and no more than one to a column. Blocked squares (furniture marked ⊠) cannot be occupied. The victim was alone in a room with one other person, and that person is the culprit. Find the culprit."
+ },
+ "solution": {
+  "cells": [
+   {
+    "r": 3,
+    "c": 5
+   },
+   {
+    "r": 5,
+    "c": 3
+   },
+   {
+    "r": 0,
+    "c": 6
+   },
+   {
+    "r": 4,
+    "c": 1
+   },
+   {
+    "r": 1,
+    "c": 0
+   },
+   {
+    "r": 6,
+    "c": 4
+   }
+  ],
+  "thief": {
+   "id": 4,
+   "name": "Otto"
+  },
+  "lootRoom": "K",
+  "falseClueNo": 4,
+  "noGuess": true,
+  "trace": null
+ },
+ "meta": {
+  "type": "thiefdoku-liar",
+  "seed": "772026121800",
+  "difficulty": "hard",
+  "planId": "ph-bakery-kitchen",
+  "suspects": 6,
+  "clueCount": 7,
+  "attempts": 1,
+  "date": "2026-12-18",
+  "gate": {
+   "attempts": 1,
+   "rejected": 0,
+   "judged": "liarSolutions+liarRoute+humanSolve"
+  }
+ },
+ "coach": {
+  "version": 1,
+  "note": "Eerst elke getuige als leugenaar proberen (refutations), dan de overlevende aanname uitspelen (steps). Niets hier is een gok.",
+  "liar": {
+   "suspect": 4,
+   "scope": "statement",
+   "clue": 4
+  },
+  "refutations": [
+   {
+    "suspect": 0,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     2
+    ],
+    "emptySuspect": 4
+   },
+   {
+    "suspect": 1,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     2
+    ],
+    "emptySuspect": 4
+   },
+   {
+    "suspect": 2,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     2
+    ],
+    "emptySuspect": 4
+   },
+   {
+    "suspect": 3,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     2
+    ],
+    "emptySuspect": 4
+   },
+   {
+    "suspect": 4,
+    "scope": "statement",
+    "clue": 2,
+    "outcome": "contradiction",
+    "cited": [
+     4
+    ],
+    "emptySuspect": 4
+   },
+   {
+    "suspect": 4,
+    "scope": "statement",
+    "clue": 4,
+    "outcome": "survives",
+    "cited": []
+   }
+  ],
+  "techniques": [
+   "place"
+  ],
+  "stats": {
+   "steps": 6,
+   "notes": 0,
+   "weight": 6
+  },
+  "steps": [
+   {
+    "n": 1,
+    "technique": "place",
+    "person": 1,
+    "cell": {
+     "r": 5,
+     "c": 3
+    },
+    "candidates": [
+     "5,3"
+    ],
+    "uses": [
+     7
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 2,
+    "technique": "place",
+    "person": 2,
+    "cell": {
+     "r": 0,
+     "c": 6
+    },
+    "candidates": [
+     "0,6"
+    ],
+    "uses": [
+     5
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 3,
+    "technique": "place",
+    "person": 4,
+    "cell": {
+     "r": 1,
+     "c": 0
+    },
+    "candidates": [
+     "0,1",
+     "1,0"
+    ],
+    "uses": [
+     2
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 4,
+    "technique": "place",
+    "person": 5,
+    "cell": {
+     "r": 6,
+     "c": 4
+    },
+    "candidates": [
+     "0,6",
+     "1,5",
+     "1,6",
+     "2,5",
+     "2,7",
+     "3,0",
+     "3,2",
+     "3,3",
+     "3,4",
+     "3,5",
+     "3,6",
+     "4,0",
+     "4,1",
+     "4,2",
+     "4,3",
+     "4,4",
+     "4,5",
+     "4,6",
+     "4,7",
+     "5,0",
+     "5,1",
+     "5,2",
+     "5,3",
+     "5,4",
+     "5,5",
+     "5,6",
+     "5,7",
+     "6,1",
+     "6,2",
+     "6,3",
+     "6,4",
+     "6,6"
+    ],
+    "uses": [
+     1
+    ],
+    "usesSceneRule": true
+   },
+   {
+    "n": 5,
+    "technique": "place",
+    "person": 0,
+    "cell": {
+     "r": 3,
+     "c": 5
+    },
+    "candidates": [
+     "3,5",
+     "4,4"
+    ],
+    "uses": [
+     6
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 6,
+    "technique": "place",
+    "person": 3,
+    "cell": {
+     "r": 4,
+     "c": 1
+    },
+    "candidates": [
+     "3,2",
+     "4,1",
+     "4,3",
+     "5,2",
+     "6,1",
+     "6,3"
+    ],
+    "uses": [
+     3
+    ],
+    "usesSceneRule": true
+   }
+  ]
+ }
+}

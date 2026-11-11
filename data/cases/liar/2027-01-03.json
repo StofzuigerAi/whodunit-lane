@@ -275,6 +275,17 @@
     },
     "text": "Rue was north of Pip.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "in-room",
+    "params": {
+     "s": 5,
+     "room": "K"
+    },
+    "text": "Juno was in the Kitchen.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

@@ -263,6 +263,28 @@
     },
     "text": "Rue was beside a chair, directly north of it.",
     "statement": true
+   },
+   {
+    "no": 9,
+    "type": "in-room",
+    "params": {
+     "s": 1,
+     "room": "B"
+    },
+    "text": "Mina was in the Cot Nook.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 10,
+    "type": "on-object",
+    "params": {
+     "s": 1,
+     "kind": "chair"
+    },
+    "text": "Mina was sitting on a chair.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

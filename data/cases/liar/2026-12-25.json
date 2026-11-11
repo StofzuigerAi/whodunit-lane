@@ -289,6 +289,17 @@
     },
     "text": "Juno was beside a sofa.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "col-is",
+    "params": {
+     "s": 5,
+     "k": 5
+    },
+    "text": "Juno was in column 6.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "hard",

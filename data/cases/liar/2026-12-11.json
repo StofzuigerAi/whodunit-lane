@@ -277,6 +277,17 @@
     },
     "text": "Otto was beside a sofa.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "in-room",
+    "params": {
+     "s": 0,
+     "room": "S"
+    },
+    "text": "Sir Bram was in the Study.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "hard",

@@ -263,6 +263,28 @@
     },
     "text": "Mina was northeast of Pip.",
     "statement": true
+   },
+   {
+    "no": 9,
+    "type": "row-is",
+    "params": {
+     "s": 0,
+     "k": 0
+    },
+    "text": "Sir Bram was in row 1.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 10,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 0
+    },
+    "text": "Sir Bram was in column 1.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

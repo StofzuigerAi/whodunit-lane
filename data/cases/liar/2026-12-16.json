@@ -255,6 +255,17 @@
     },
     "text": "Sir Bram was the only person on a chair.",
     "statement": false
+   },
+   {
+    "no": 8,
+    "type": "on-object",
+    "params": {
+     "s": 4,
+     "kind": "bed"
+    },
+    "text": "Otto was sitting on a bed.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

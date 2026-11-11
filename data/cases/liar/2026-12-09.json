@@ -300,6 +300,17 @@
     },
     "text": "Pip was beside exactly one chair.",
     "statement": true
+   },
+   {
+    "no": 12,
+    "type": "in-room",
+    "params": {
+     "s": 2,
+     "room": "L"
+    },
+    "text": "Rue was in the Reading Loft.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

@@ -298,6 +298,17 @@
     },
     "text": "Pip was in the Library Nook.",
     "statement": true
+   },
+   {
+    "no": 12,
+    "type": "col-is",
+    "params": {
+     "s": 3,
+     "k": 0
+    },
+    "text": "Pip was in column 1.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

@@ -275,6 +275,17 @@
     },
     "text": "There was a carpet in Mina's row, in the same room.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "on-object",
+    "params": {
+     "s": 1,
+     "kind": "chair"
+    },
+    "text": "Mina was sitting on a chair.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

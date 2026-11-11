@@ -250,6 +250,28 @@
     },
     "text": "Pip was beside a shelf, directly east of it.",
     "statement": true
+   },
+   {
+    "no": 8,
+    "type": "on-object",
+    "params": {
+     "s": 2,
+     "kind": "chair"
+    },
+    "text": "Rue was sitting on a chair.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 9,
+    "type": "in-room",
+    "params": {
+     "s": 2,
+     "room": "S"
+    },
+    "text": "Rue was in the Sitting Corner.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

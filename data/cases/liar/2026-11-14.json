@@ -266,6 +266,28 @@
     },
     "text": "Rue was west of Juno.",
     "statement": true
+   },
+   {
+    "no": 9,
+    "type": "col-is",
+    "params": {
+     "s": 1,
+     "k": 7
+    },
+    "text": "Mina was in column 8.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 10,
+    "type": "row-is",
+    "params": {
+     "s": 1,
+     "k": 4
+    },
+    "text": "Mina was in row 5.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

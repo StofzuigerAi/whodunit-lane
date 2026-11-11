@@ -288,6 +288,17 @@
     },
     "text": "Rue was the only person on a carpet.",
     "statement": false
+   },
+   {
+    "no": 11,
+    "type": "col-is",
+    "params": {
+     "s": 4,
+     "k": 1
+    },
+    "text": "Otto was in column 2.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

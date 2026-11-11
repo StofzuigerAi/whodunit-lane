@@ -1,0 +1,482 @@
+{
+ "puzzle": {
+  "planId": "ph-farmhouse-kitchen",
+  "planLabel": "The Farmhouse Kitchen",
+  "theme": "kitchen",
+  "rows": 7,
+  "cols": 8,
+  "map": [
+   "LLLLKKKK",
+   "LLLLKKKK",
+   "MMKKKKKK",
+   "MMKKKKKK",
+   "MMSSSSSS",
+   "MMSSSSSS",
+   ".MSSSSS."
+  ],
+  "rooms": {
+   "K": "Kitchen",
+   "L": "Larder",
+   "M": "Mudroom",
+   "S": "Sitting Corner"
+  },
+  "furniture": [
+   {
+    "r": 0,
+    "c": 0,
+    "kind": "shelf",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 2,
+    "kind": "shelf",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 1,
+    "kind": "crate",
+    "blocking": true
+   },
+   {
+    "r": 0,
+    "c": 3,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 0,
+    "c": 4,
+    "kind": "counter",
+    "blocking": true
+   },
+   {
+    "r": 0,
+    "c": 5,
+    "kind": "counter",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 7,
+    "kind": "case",
+    "blocking": true
+   },
+   {
+    "r": 3,
+    "c": 4,
+    "kind": "table",
+    "blocking": true
+   },
+   {
+    "r": 3,
+    "c": 3,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 3,
+    "c": 5,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 2,
+    "c": 6,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 0,
+    "c": 7,
+    "kind": "plant",
+    "blocking": true
+   },
+   {
+    "r": 3,
+    "c": 0,
+    "kind": "bench",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 1,
+    "kind": "crate",
+    "blocking": true
+   },
+   {
+    "r": 2,
+    "c": 0,
+    "kind": "plant",
+    "blocking": true
+   },
+   {
+    "r": 4,
+    "c": 1,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 4,
+    "c": 6,
+    "kind": "sofa",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 4,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 6,
+    "c": 5,
+    "kind": "bed",
+    "blocking": false
+   },
+   {
+    "r": 4,
+    "c": 3,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 7,
+    "kind": "bench",
+    "blocking": false
+   },
+   {
+    "r": 6,
+    "c": 3,
+    "kind": "table",
+    "blocking": true
+   }
+  ],
+  "loot": {
+   "r": 1,
+   "c": 7,
+   "room": "K",
+   "item": "the victim"
+  },
+  "suspects": [
+   {
+    "id": 0,
+    "name": "Sir Bram"
+   },
+   {
+    "id": 1,
+    "name": "Mina"
+   },
+   {
+    "id": 2,
+    "name": "Rue"
+   },
+   {
+    "id": 3,
+    "name": "Pip"
+   }
+  ],
+  "clues": [
+   {
+    "no": 1,
+    "type": "object-in-line",
+    "params": {
+     "s": 0,
+     "kind": "carpet",
+     "axis": "row",
+     "sameRoom": true
+    },
+    "text": "There was a carpet in Sir Bram's row, in the same room.",
+    "statement": true
+   },
+   {
+    "no": 2,
+    "type": "beside-object",
+    "params": {
+     "s": 1,
+     "kind": "chair"
+    },
+    "text": "Mina was beside a chair.",
+    "statement": true
+   },
+   {
+    "no": 3,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 2
+    },
+    "text": "Sir Bram was in column 3.",
+    "statement": true
+   },
+   {
+    "no": 4,
+    "type": "beside-kind-count",
+    "params": {
+     "s": 2,
+     "kind": "chair",
+     "k": 1
+    },
+    "text": "Rue was beside exactly one chair.",
+    "statement": true
+   },
+   {
+    "no": 5,
+    "type": "beside-object",
+    "params": {
+     "s": 2,
+     "kind": "sofa"
+    },
+    "text": "Rue was beside a sofa.",
+    "statement": true
+   },
+   {
+    "no": 6,
+    "type": "quad-of",
+    "params": {
+     "s": 2,
+     "t": 0,
+     "quad": "ne"
+    },
+    "text": "Rue was northeast of Sir Bram.",
+    "statement": true
+   },
+   {
+    "no": 7,
+    "type": "object-in-line",
+    "params": {
+     "s": 2,
+     "kind": "case",
+     "axis": "row",
+     "sameRoom": true
+    },
+    "text": "There was a case in Rue's row, in the same room.",
+    "statement": true
+   },
+   {
+    "no": 8,
+    "type": "beside-kind-count",
+    "params": {
+     "s": 3,
+     "kind": "carpet",
+     "k": 1
+    },
+    "text": "Pip was beside exactly one carpet.",
+    "statement": true
+   }
+  ],
+  "difficulty": "easy",
+  "rule": "one-liar",
+  "instruction": "Everyone, the victim too, stood on one square: one person to a row, and no more than one to a column. Blocked squares (furniture marked ⊠) cannot be occupied. The victim was alone in a room with one other person, and that person is the culprit. Find the culprit."
+ },
+ "solution": {
+  "cells": [
+   {
+    "r": 5,
+    "c": 2
+   },
+   {
+    "r": 4,
+    "c": 4
+   },
+   {
+    "r": 1,
+    "c": 6
+   },
+   {
+    "r": 3,
+    "c": 1
+   }
+  ],
+  "thief": {
+   "id": 2,
+   "name": "Rue"
+  },
+  "lootRoom": "K",
+  "falseClueNo": 5,
+  "noGuess": true,
+  "trace": null
+ },
+ "meta": {
+  "type": "thiefdoku-liar",
+  "seed": "772026120800",
+  "difficulty": "easy",
+  "planId": "ph-farmhouse-kitchen",
+  "suspects": 4,
+  "clueCount": 8,
+  "attempts": 1,
+  "date": "2026-12-08",
+  "gate": {
+   "attempts": 1,
+   "rejected": 0,
+   "judged": "liarSolutions+liarRoute+humanSolve"
+  }
+ },
+ "coach": {
+  "version": 1,
+  "note": "Eerst elke getuige als leugenaar proberen (refutations), dan de overlevende aanname uitspelen (steps). Niets hier is een gok.",
+  "liar": {
+   "suspect": 2,
+   "scope": "statement",
+   "clue": 5
+  },
+  "refutations": [
+   {
+    "suspect": 0,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     7
+    ],
+    "emptySuspect": 2
+   },
+   {
+    "suspect": 1,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     7
+    ],
+    "emptySuspect": 2
+   },
+   {
+    "suspect": 2,
+    "scope": "statement",
+    "clue": 4,
+    "outcome": "contradiction",
+    "cited": [
+     5
+    ],
+    "emptySuspect": 2
+   },
+   {
+    "suspect": 2,
+    "scope": "statement",
+    "clue": 5,
+    "outcome": "survives",
+    "cited": []
+   },
+   {
+    "suspect": 2,
+    "scope": "statement",
+    "clue": 6,
+    "outcome": "contradiction",
+    "cited": [
+     5
+    ],
+    "emptySuspect": 2
+   },
+   {
+    "suspect": 2,
+    "scope": "statement",
+    "clue": 7,
+    "outcome": "contradiction",
+    "cited": [
+     5
+    ],
+    "emptySuspect": 2
+   },
+   {
+    "suspect": 3,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     7
+    ],
+    "emptySuspect": 2
+   }
+  ],
+  "techniques": [
+   "place"
+  ],
+  "stats": {
+   "steps": 4,
+   "notes": 0,
+   "weight": 4
+  },
+  "steps": [
+   {
+    "n": 1,
+    "technique": "place",
+    "person": 2,
+    "cell": {
+     "r": 1,
+     "c": 6
+    },
+    "candidates": [
+     "1,6"
+    ],
+    "uses": [
+     4,
+     7
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 2,
+    "technique": "place",
+    "person": 0,
+    "cell": {
+     "r": 5,
+     "c": 2
+    },
+    "candidates": [
+     "0,2",
+     "5,2"
+    ],
+    "uses": [
+     1,
+     3,
+     6
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 3,
+    "technique": "place",
+    "person": 1,
+    "cell": {
+     "r": 4,
+     "c": 4
+    },
+    "candidates": [
+     "4,2",
+     "4,4",
+     "5,3"
+    ],
+    "uses": [
+     2
+    ],
+    "usesSceneRule": true
+   },
+   {
+    "n": 4,
+    "technique": "place",
+    "person": 3,
+    "cell": {
+     "r": 3,
+     "c": 1
+    },
+    "candidates": [
+     "0,2",
+     "1,3",
+     "3,1",
+     "4,0",
+     "4,4",
+     "5,3",
+     "5,5",
+     "6,4"
+    ],
+    "uses": [
+     8
+    ],
+    "usesSceneRule": false
+   }
+  ]
+ }
+}

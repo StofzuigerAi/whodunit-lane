@@ -253,6 +253,17 @@
     },
     "text": "Mina was beside a shelf, directly east of it.",
     "statement": true
+   },
+   {
+    "no": 8,
+    "type": "on-object",
+    "params": {
+     "s": 0,
+     "kind": "bed"
+    },
+    "text": "Sir Bram was sitting on a bed.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

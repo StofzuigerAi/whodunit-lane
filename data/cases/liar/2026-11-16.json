@@ -293,6 +293,17 @@
     },
     "text": "Sir Bram was beside exactly one chair.",
     "statement": true
+   },
+   {
+    "no": 12,
+    "type": "in-room",
+    "params": {
+     "s": 0,
+     "room": "K"
+    },
+    "text": "Sir Bram was in the Kitchen.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

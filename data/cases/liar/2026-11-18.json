@@ -273,6 +273,17 @@
     },
     "text": "Mina was beside a counter.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "in-room",
+    "params": {
+     "s": 1,
+     "room": "K"
+    },
+    "text": "Mina was in the Kitchen.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

@@ -263,6 +263,28 @@
     },
     "text": "Sir Bram was the furthest north in the Landing.",
     "statement": false
+   },
+   {
+    "no": 9,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 7
+    },
+    "text": "Sir Bram was in column 8.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 10,
+    "type": "row-is",
+    "params": {
+     "s": 0,
+     "k": 4
+    },
+    "text": "Sir Bram was in row 5.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

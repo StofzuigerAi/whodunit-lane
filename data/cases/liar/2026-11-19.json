@@ -283,6 +283,28 @@
     },
     "text": "Rue was the only person on a chair.",
     "statement": false
+   },
+   {
+    "no": 11,
+    "type": "in-room",
+    "params": {
+     "s": 1,
+     "room": "S"
+    },
+    "text": "Mina was in the Storeroom.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 12,
+    "type": "row-is",
+    "params": {
+     "s": 1,
+     "k": 2
+    },
+    "text": "Mina was in row 3.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

@@ -278,6 +278,17 @@
     },
     "text": "Otto was sitting on a chair.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "in-room",
+    "params": {
+     "s": 3,
+     "room": "S"
+    },
+    "text": "Pip was in the Study.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

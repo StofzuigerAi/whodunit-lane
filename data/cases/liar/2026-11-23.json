@@ -253,6 +253,17 @@
     },
     "text": "Sir Bram was beside a table, directly west of it.",
     "statement": true
+   },
+   {
+    "no": 8,
+    "type": "in-room",
+    "params": {
+     "s": 0,
+     "room": "W"
+    },
+    "text": "Sir Bram was in the Workshop.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

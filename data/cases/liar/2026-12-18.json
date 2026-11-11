@@ -258,6 +258,17 @@
     },
     "text": "Mina was sitting on a sofa.",
     "statement": true
+   },
+   {
+    "no": 8,
+    "type": "on-object",
+    "params": {
+     "s": 1,
+     "kind": "sofa"
+    },
+    "text": "Mina was sitting on a sofa.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "hard",

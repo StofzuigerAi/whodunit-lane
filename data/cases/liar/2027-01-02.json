@@ -286,6 +286,17 @@
     },
     "text": "Juno was sitting on a chair.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "row-is",
+    "params": {
+     "s": 5,
+     "k": 1
+    },
+    "text": "Juno was in row 2.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

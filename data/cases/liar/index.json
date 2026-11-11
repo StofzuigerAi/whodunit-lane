@@ -358,5 +358,26 @@
   "file": "2027-01-10.json",
   "difficulty": "expert",
   "planId": "ph-attic-workshop"
+ },
+ {
+  "file": "practice-1.json",
+  "difficulty": "easy",
+  "planId": "ph-farmhouse-kitchen",
+  "practice": true,
+  "lieHelp": "told"
+ },
+ {
+  "file": "practice-2.json",
+  "difficulty": "medium",
+  "planId": "ph-bakery-kitchen",
+  "practice": true,
+  "lieHelp": "pair"
+ },
+ {
+  "file": "practice-3.json",
+  "difficulty": "hard",
+  "planId": "ph-writers-study",
+  "practice": true,
+  "lieHelp": "none"
  }
 ]

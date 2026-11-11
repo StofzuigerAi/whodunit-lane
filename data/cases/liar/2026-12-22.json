@@ -269,6 +269,17 @@
     },
     "text": "Pip was west of Mina.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "on-object",
+    "params": {
+     "s": 3,
+     "kind": "sofa"
+    },
+    "text": "Pip was sitting on a sofa.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

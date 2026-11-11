@@ -289,6 +289,28 @@
     },
     "text": "Sir Bram was beside a bed.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "col-is",
+    "params": {
+     "s": 1,
+     "k": 3
+    },
+    "text": "Mina was in column 4.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 12,
+    "type": "row-is",
+    "params": {
+     "s": 1,
+     "k": 4
+    },
+    "text": "Mina was in row 5.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

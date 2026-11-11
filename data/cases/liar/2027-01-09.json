@@ -277,6 +277,17 @@
     },
     "text": "Sir Bram was in the Mudroom.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "col-is",
+    "params": {
+     "s": 1,
+     "k": 7
+    },
+    "text": "Mina was in column 8.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

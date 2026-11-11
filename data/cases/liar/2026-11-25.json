@@ -285,6 +285,27 @@
     },
     "text": "Mina was south of Sir Bram.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 2
+    },
+    "text": "Sir Bram was in column 3.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 12,
+    "type": "corner",
+    "params": {
+     "s": 0
+    },
+    "text": "Sir Bram was in a corner of the room.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

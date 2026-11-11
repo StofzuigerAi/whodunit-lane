@@ -270,6 +270,17 @@
     },
     "text": "Sir Bram was the only person on a sofa.",
     "statement": false
+   },
+   {
+    "no": 10,
+    "type": "on-object",
+    "params": {
+     "s": 0,
+     "kind": "sofa"
+    },
+    "text": "Sir Bram was sitting on a sofa.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

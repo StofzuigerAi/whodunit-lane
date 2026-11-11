@@ -280,6 +280,28 @@
     },
     "text": "Juno was in the Storeroom.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 6
+    },
+    "text": "Sir Bram was in column 7.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 11,
+    "type": "on-object",
+    "params": {
+     "s": 0,
+     "kind": "chair"
+    },
+    "text": "Sir Bram was sitting on a chair.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "hard",

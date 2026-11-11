@@ -267,6 +267,27 @@
     },
     "text": "There was a statue in Pip's row, in the same room.",
     "statement": true
+   },
+   {
+    "no": 9,
+    "type": "col-is",
+    "params": {
+     "s": 1,
+     "k": 5
+    },
+    "text": "Mina was in column 6.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 10,
+    "type": "corner",
+    "params": {
+     "s": 1
+    },
+    "text": "Mina was in a corner of the room.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

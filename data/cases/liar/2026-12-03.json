@@ -257,6 +257,17 @@
     },
     "text": "Rue was beside a shelf, directly east of it.",
     "statement": true
+   },
+   {
+    "no": 8,
+    "type": "in-room",
+    "params": {
+     "s": 0,
+     "room": "S"
+    },
+    "text": "Sir Bram was in the Study.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

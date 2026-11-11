@@ -1,0 +1,497 @@
+{
+ "puzzle": {
+  "planId": "ph-writers-study",
+  "planLabel": "The Writer's Study",
+  "theme": "study",
+  "rows": 7,
+  "cols": 8,
+  "map": [
+   "SSSSLLL.",
+   "SSSSLLLL",
+   "SSSSLLLL",
+   "HHHSSRRR",
+   "HHHHRRRR",
+   "HHHHRRRR",
+   ".HHHRRR."
+  ],
+  "rooms": {
+   "S": "Study",
+   "L": "Library Nook",
+   "H": "Hall",
+   "R": "Sunroom"
+  },
+  "furniture": [
+   {
+    "r": 0,
+    "c": 0,
+    "kind": "plant",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 1,
+    "kind": "desk",
+    "blocking": true
+   },
+   {
+    "r": 2,
+    "c": 1,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 1,
+    "c": 3,
+    "kind": "case",
+    "blocking": true
+   },
+   {
+    "r": 2,
+    "c": 3,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 3,
+    "c": 3,
+    "kind": "bench",
+    "blocking": false
+   },
+   {
+    "r": 0,
+    "c": 4,
+    "kind": "shelf",
+    "blocking": true
+   },
+   {
+    "r": 0,
+    "c": 5,
+    "kind": "shelf",
+    "blocking": true
+   },
+   {
+    "r": 1,
+    "c": 7,
+    "kind": "shelf",
+    "blocking": true
+   },
+   {
+    "r": 2,
+    "c": 5,
+    "kind": "sofa",
+    "blocking": false
+   },
+   {
+    "r": 1,
+    "c": 6,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 2,
+    "c": 7,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 3,
+    "c": 7,
+    "kind": "plant",
+    "blocking": true
+   },
+   {
+    "r": 5,
+    "c": 5,
+    "kind": "plant",
+    "blocking": true
+   },
+   {
+    "r": 4,
+    "c": 6,
+    "kind": "sofa",
+    "blocking": false
+   },
+   {
+    "r": 6,
+    "c": 5,
+    "kind": "bench",
+    "blocking": false
+   },
+   {
+    "r": 4,
+    "c": 5,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 7,
+    "kind": "chair",
+    "blocking": false
+   },
+   {
+    "r": 3,
+    "c": 0,
+    "kind": "bench",
+    "blocking": false
+   },
+   {
+    "r": 5,
+    "c": 1,
+    "kind": "piano",
+    "blocking": true
+   },
+   {
+    "r": 4,
+    "c": 2,
+    "kind": "carpet",
+    "blocking": false
+   },
+   {
+    "r": 6,
+    "c": 3,
+    "kind": "statue",
+    "blocking": true
+   }
+  ],
+  "loot": {
+   "r": 1,
+   "c": 3,
+   "room": "S",
+   "item": "the victim"
+  },
+  "suspects": [
+   {
+    "id": 0,
+    "name": "Sir Bram"
+   },
+   {
+    "id": 1,
+    "name": "Mina"
+   },
+   {
+    "id": 2,
+    "name": "Rue"
+   },
+   {
+    "id": 3,
+    "name": "Pip"
+   }
+  ],
+  "clues": [
+   {
+    "no": 1,
+    "type": "beside-object",
+    "params": {
+     "s": 2,
+     "kind": "sofa"
+    },
+    "text": "Rue was beside a sofa.",
+    "statement": true
+   },
+   {
+    "no": 2,
+    "type": "object-in-line",
+    "params": {
+     "s": 1,
+     "kind": "statue",
+     "axis": "row",
+     "sameRoom": true
+    },
+    "text": "There was a statue in Mina's row, in the same room.",
+    "statement": true
+   },
+   {
+    "no": 3,
+    "type": "south-of",
+    "params": {
+     "s": 3,
+     "t": 1
+    },
+    "text": "Pip was south of Mina.",
+    "statement": true
+   },
+   {
+    "no": 4,
+    "type": "quad-of",
+    "params": {
+     "s": 2,
+     "t": 0,
+     "quad": "se"
+    },
+    "text": "Rue was southeast of Sir Bram.",
+    "statement": true
+   },
+   {
+    "no": 5,
+    "type": "beside-kind-count",
+    "params": {
+     "s": 0,
+     "kind": "piano",
+     "k": 1
+    },
+    "text": "Sir Bram was beside exactly one piano.",
+    "statement": true
+   },
+   {
+    "no": 6,
+    "type": "beside-object-dir",
+    "params": {
+     "s": 3,
+     "kind": "case",
+     "dir": "s"
+    },
+    "text": "Pip was beside a case, directly north of it.",
+    "statement": true
+   }
+  ],
+  "difficulty": "easy",
+  "rule": "one-liar",
+  "instruction": "Everyone, the victim too, stood on one square: one person to a row, and no more than one to a column. Blocked squares (furniture marked ⊠) cannot be occupied. The victim was alone in a room with one other person, and that person is the culprit. Find the culprit."
+ },
+ "solution": {
+  "cells": [
+   {
+    "r": 4,
+    "c": 1
+   },
+   {
+    "r": 6,
+    "c": 2
+   },
+   {
+    "r": 5,
+    "c": 6
+   },
+   {
+    "r": 0,
+    "c": 3
+   }
+  ],
+  "thief": {
+   "id": 3,
+   "name": "Pip"
+  },
+  "lootRoom": "S",
+  "falseClueNo": 3,
+  "noGuess": true,
+  "trace": null
+ },
+ "meta": {
+  "type": "thiefdoku-liar",
+  "seed": "772026121500",
+  "difficulty": "easy",
+  "planId": "ph-writers-study",
+  "suspects": 4,
+  "clueCount": 6,
+  "attempts": 1,
+  "date": "2026-12-15",
+  "gate": {
+   "attempts": 1,
+   "rejected": 0,
+   "judged": "liarSolutions+liarRoute+humanSolve"
+  }
+ },
+ "coach": {
+  "version": 1,
+  "note": "Eerst elke getuige als leugenaar proberen (refutations), dan de overlevende aanname uitspelen (steps). Niets hier is een gok.",
+  "liar": {
+   "suspect": 3,
+   "scope": "statement",
+   "clue": 3
+  },
+  "refutations": [
+   {
+    "suspect": 0,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     6
+    ],
+    "emptySuspect": 3
+   },
+   {
+    "suspect": 1,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     6
+    ],
+    "emptySuspect": 3
+   },
+   {
+    "suspect": 2,
+    "scope": "suspect",
+    "clue": null,
+    "outcome": "contradiction",
+    "cited": [
+     6
+    ],
+    "emptySuspect": 3
+   },
+   {
+    "suspect": 3,
+    "scope": "statement",
+    "clue": 3,
+    "outcome": "survives",
+    "cited": []
+   },
+   {
+    "suspect": 3,
+    "scope": "statement",
+    "clue": 6,
+    "outcome": "contradiction",
+    "cited": [
+     2,
+     3
+    ],
+    "emptySuspect": 1
+   }
+  ],
+  "techniques": [
+   "place",
+   "crossing",
+   "pair"
+  ],
+  "stats": {
+   "steps": 6,
+   "notes": 2,
+   "weight": 12
+  },
+  "steps": [
+   {
+    "n": 1,
+    "technique": "place",
+    "person": 3,
+    "cell": {
+     "r": 0,
+     "c": 3
+    },
+    "candidates": [
+     "0,3"
+    ],
+    "uses": [
+     6
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 2,
+    "technique": "crossing",
+    "person": 1,
+    "cell": null,
+    "candidates": [
+     "6,1",
+     "6,2"
+    ],
+    "uses": [
+     2
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 3,
+    "technique": "pair",
+    "person": null,
+    "cell": null,
+    "candidates": [
+     "5,6"
+    ],
+    "clue": 4,
+    "people": [
+     {
+      "person": 2,
+      "removed": [
+       "1,5",
+       "2,4",
+       "2,6",
+       "3,6",
+       "4,5",
+       "4,7"
+      ],
+      "left": [
+       "5,6"
+      ]
+     },
+     {
+      "person": 0,
+      "removed": [
+       "5,0",
+       "5,2"
+      ],
+      "left": [
+       "4,1"
+      ]
+     }
+    ],
+    "uses": [
+     1,
+     4,
+     5
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 4,
+    "technique": "place",
+    "person": 2,
+    "cell": {
+     "r": 5,
+     "c": 6
+    },
+    "candidates": [
+     "1,5",
+     "2,4",
+     "2,6",
+     "3,6",
+     "4,5",
+     "4,7",
+     "5,6"
+    ],
+    "uses": [
+     1
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 5,
+    "technique": "place",
+    "person": 0,
+    "cell": {
+     "r": 4,
+     "c": 1
+    },
+    "candidates": [
+     "4,1",
+     "5,0",
+     "5,2",
+     "6,1"
+    ],
+    "uses": [
+     4,
+     5
+    ],
+    "usesSceneRule": false
+   },
+   {
+    "n": 6,
+    "technique": "place",
+    "person": 1,
+    "cell": {
+     "r": 6,
+     "c": 2
+    },
+    "candidates": [
+     "6,1",
+     "6,2"
+    ],
+    "uses": [
+     2
+    ],
+    "usesSceneRule": false
+   }
+  ]
+ }
+}

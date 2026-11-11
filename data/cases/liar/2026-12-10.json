@@ -299,6 +299,28 @@
     },
     "text": "Sir Bram was east of Rue.",
     "statement": true
+   },
+   {
+    "no": 12,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 4
+    },
+    "text": "Sir Bram was in column 5.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 13,
+    "type": "row-is",
+    "params": {
+     "s": 0,
+     "k": 5
+    },
+    "text": "Sir Bram was in row 6.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

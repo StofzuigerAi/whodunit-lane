@@ -274,6 +274,28 @@
     },
     "text": "Mina was beside exactly one plant.",
     "statement": true
+   },
+   {
+    "no": 10,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 3
+    },
+    "text": "Sir Bram was in column 4.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 11,
+    "type": "row-is",
+    "params": {
+     "s": 0,
+     "k": 4
+    },
+    "text": "Sir Bram was in row 5.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

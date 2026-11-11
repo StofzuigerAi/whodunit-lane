@@ -280,6 +280,17 @@
     },
     "text": "Rue was beside a carpet.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "row-is",
+    "params": {
+     "s": 3,
+     "k": 1
+    },
+    "text": "Pip was in row 2.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "easy",

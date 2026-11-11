@@ -308,6 +308,17 @@
     },
     "text": "Sir Bram was beside exactly one bench.",
     "statement": true
+   },
+   {
+    "no": 13,
+    "type": "col-is",
+    "params": {
+     "s": 0,
+     "k": 1
+    },
+    "text": "Sir Bram was in column 2.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",

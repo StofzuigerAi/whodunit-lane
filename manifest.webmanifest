@@ -1,6 +1,6 @@
 {
-  "name": "Culprit Club",
-  "short_name": "Culprit Club",
+  "name": "Whodunit Lane",
+  "short_name": "Whodunit Lane",
   "description": "A free daily whodunit. Place the suspects, catch the lie.",
   "start_url": "./",
   "scope": "./",

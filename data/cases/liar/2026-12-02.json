@@ -264,6 +264,17 @@
     },
     "text": "Rue was not in the Kitchen.",
     "statement": true
+   },
+   {
+    "no": 9,
+    "type": "in-room",
+    "params": {
+     "s": 2,
+     "room": "K"
+    },
+    "text": "Rue was in the Kitchen.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

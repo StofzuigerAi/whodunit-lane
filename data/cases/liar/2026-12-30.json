@@ -285,6 +285,28 @@
     },
     "text": "Pip was east of Sir Bram.",
     "statement": true
+   },
+   {
+    "no": 11,
+    "type": "on-object",
+    "params": {
+     "s": 0,
+     "kind": "chair"
+    },
+    "text": "Sir Bram was sitting on a chair.",
+    "statement": false,
+    "starter": true
+   },
+   {
+    "no": 12,
+    "type": "row-is",
+    "params": {
+     "s": 0,
+     "k": 4
+    },
+    "text": "Sir Bram was in row 5.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "medium",

@@ -278,6 +278,17 @@
     },
     "text": "Otto was alone in a room.",
     "statement": false
+   },
+   {
+    "no": 10,
+    "type": "col-is",
+    "params": {
+     "s": 2,
+     "k": 5
+    },
+    "text": "Rue was in column 6.",
+    "statement": false,
+    "starter": true
    }
   ],
   "difficulty": "expert",
